@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['hole', 'objects', 'oil spot', 'thread error']
+
+roboflow:
+  workspace: irvin-andersen
+  project: tilda-fabric
+  version: 2
+  license: Public Domain
+  url: https://universe.roboflow.com/irvin-andersen/tilda-fabric/dataset/2
